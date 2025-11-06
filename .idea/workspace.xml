@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e29962-3285-4bfe-9673-083c552482ec" name="Changes" comment="Inicio projeto Spring">
-      <change afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosEpisodios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosTemporadas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Exibirmenu.java" afterDir="false" />
+    <list default="true" id="76e29962-3285-4bfe-9673-083c552482ec" name="Changes" comment="Adicionando melhorias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/ScreenmatchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosSerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosEpisodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosEpisodios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosTemporadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/model/DadosTemporadas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Exibirmenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch/src/main/java/br/com/alura/screenmatch/principal/Exibirmenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lumas888"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lumas888&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lumas888/Screenmachtalura.git",
-    "accountId": "4184fb48-0d98-4b13-a4d0-32e6e51c4fcb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lumas888/Screenmachtalura.git&quot;,
+    &quot;accountId&quot;: &quot;4184fb48-0d98-4b13-a4d0-32e6e51c4fcb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ScreenmatchApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/est.luca/workspace_luca/Spring boot/screenmatch",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ScreenmatchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/est.luca/workspace_luca/Spring boot/screenmatch&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ScreenmatchApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.ScreenmatchApplication" />
@@ -98,11 +96,20 @@
       <option name="project" value="LOCAL" />
       <updated>1762275205426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionando melhorias">
+      <option name="closed" value="true" />
+      <created>1762291245858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762291245858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio projeto Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio projeto Spring" />
+    <MESSAGE value="Adicionando melhorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando melhorias" />
   </component>
 </project>
