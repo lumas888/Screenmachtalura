@@ -58,9 +58,6 @@ public class Exibirmenu {
 
             System.out.println("🏆 Ranking top 5 melhores episódios:");
 
-
-
-
             List<DadosEpisodios> top5Episodios = listaTemporada.stream()
                     .flatMap(t -> t.episodios().stream()
                     .map(e -> new DadosEpisodios(
@@ -71,6 +68,7 @@ public class Exibirmenu {
                             e.avaliacao()
 
                     ))
+
                     )
 // junta todos os episódios de todas as temporadas
                     .sorted(Comparator.comparing(DadosEpisodios::avaliacaoComoDouble).reversed()) // ordena por nota
@@ -78,15 +76,10 @@ public class Exibirmenu {
                     .toList();
 
 
-
-
                 for (DadosEpisodios ep : top5Episodios) {
 
                     System.out.println("- " + "Temporada: " + ep.temporada() + " "+  ep.titulo() + " (" + ep.avaliacaoComoDouble() + ")");
                 }
-
-
-
 
 
         } else if (informacoesMaiusculo.equals("N")) {
